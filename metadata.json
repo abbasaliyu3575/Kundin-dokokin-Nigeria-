@@ -1,0 +1,6 @@
+{
+  "name": "Kundin Tsarin Mulkin Nigeria - Hausa AI Reader",
+  "description": "AVAR Royal Family Access - Kundin Tsarin Mulkin Nigeria 1999 a Harshen Hausa Zalla mai Karantuwa da Muryar AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

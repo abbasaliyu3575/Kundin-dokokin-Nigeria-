@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="50%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#bg)"/>
+  <rect width="480" height="480" x="16" y="16" rx="90" fill="none" stroke="#10b981" stroke-width="4" stroke-opacity="0.4"/>
+
+  <!-- Nigerian Ribbon Bar -->
+  <rect x="206" y="44" width="32" height="12" rx="4" fill="#10b981"/>
+  <rect x="240" y="44" width="32" height="12" rx="4" fill="#ffffff"/>
+  <rect x="274" y="44" width="32" height="12" rx="4" fill="#10b981"/>
+
+  <!-- Crown / Royal Crest -->
+  <path d="M 216 92 L 236 116 L 256 80 L 276 116 L 296 92 L 290 126 L 222 126 Z" fill="url(#gold)" filter="url(#glow)"/>
+  <circle cx="216" cy="88" r="4" fill="#fef3c7"/>
+  <circle cx="256" cy="76" r="5" fill="#fef3c7"/>
+  <circle cx="296" cy="88" r="4" fill="#fef3c7"/>
+
+  <!-- Scales of Justice -->
+  <path d="M 256 140 L 256 340" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 180 180 L 332 180" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Left Pan -->
+  <path d="M 180 180 L 140 250" stroke="#fef3c7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 180 180 L 220 250" stroke="#fef3c7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 130 250 Q 180 280 230 250 Z" fill="url(#gold)"/>
+
+  <!-- Right Pan -->
+  <path d="M 332 180 L 292 250" stroke="#fef3c7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 332 180 L 372 250" stroke="#fef3c7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 282 250 Q 332 280 382 250 Z" fill="url(#gold)"/>
+
+  <!-- Central Open Law Book -->
+  <g transform="translate(136, 300)">
+    <path d="M 120 40 Q 60 10 0 20 L 0 120 Q 60 110 120 140 Q 180 110 240 120 L 240 20 Q 180 10 120 40 Z" fill="#047857" stroke="#34d399" stroke-width="4"/>
+    <path d="M 120 42 L 120 138" stroke="#fef3c7" stroke-width="3"/>
+    <!-- Page text lines left -->
+    <line x1="24" y1="50" x2="100" y2="55" stroke="#a7f3d0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="24" y1="70" x2="96" y2="75" stroke="#a7f3d0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="24" y1="90" x2="80" y2="95" stroke="#a7f3d0" stroke-width="3" stroke-linecap="round"/>
+    <!-- Page text lines right -->
+    <line x1="140" y1="55" x2="216" y2="50" stroke="#a7f3d0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="144" y1="75" x2="216" y2="70" stroke="#a7f3d0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="160" y1="95" x2="216" y2="90" stroke="#a7f3d0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Central "1999" Badge -->
+  <rect x="216" y="440" width="80" height="28" rx="8" fill="#10b981"/>
+  <text x="256" y="460" font-family="system-ui, sans-serif" font-weight="900" font-size="16" fill="#022c22" text-anchor="middle" dominant-baseline="middle" letter-spacing="2">1999</text>
+</svg>
